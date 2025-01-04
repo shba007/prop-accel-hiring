@@ -20,25 +20,25 @@ html {
 }
 
 #review .splide__slide.is-active {
-  @apply rounded-[10px] shadow-[0px_16px_40px_0px_rgba(154,148,148,0.25)] overflow-hidden;
+  @apply overflow-hidden rounded-[10px] shadow-[0px_16px_40px_0px_rgba(154,148,148,0.25)];
 }
 #review .splide__slide {
   @apply my-16;
 }
 
 #review .pagination {
-  @apply absolute left-1/2 -translate-x-1/2 bottom-1 flex gap-6 h-[10px];
+  @apply absolute bottom-1 left-1/2 flex h-[10px] -translate-x-1/2 gap-6;
 }
 
 #review .pagination > li {
-  @apply flex justify-center items-center;
+  @apply flex items-center justify-center;
 }
 
 #review .pagination-page {
   /* drop-shadow-[0_0px_2px_rgba(0,0,0,0.5)] */
-  @apply rounded-full w-[15px] h-[15px] bg-[#EEEEEE] transition-colors duration-300 overflow-hidden;
+  @apply h-[15px] w-[15px] overflow-hidden rounded-full bg-[#EEEEEE] transition-colors duration-300;
 }
 
 #review .pagination-page.is-active {
-  @apply  bg-[#7A3199];
+  @apply bg-[#7A3199];
 }
